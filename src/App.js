@@ -32,7 +32,7 @@ function getOptions() {
         name: valute.Name,
         nominal: valute.Nominal,
         charcode: valute.CharCode,
-        value: valute.Value,
+        value: valute.Value / 100,
         id: valute.ID,
       }
     })
